@@ -95,7 +95,7 @@ mvn test
 <img src="https://imgur.com/p0M5eVB.png" width="80%">
 
 
-<img src="https://imgur.com/undefined.png" width="80%">
+<img src="https://imgur.com/oacY2Y6.png" width="80%">
 
 
 
@@ -103,8 +103,8 @@ mvn test
 
 - Sending email & uploading attachment  test Case execution ( https://imgur.com/T2eTvWa )
 
-![TesCase GIF](https://imgur.com/43gUHx3.gif)
+![TestCase GIF](https://imgur.com/vsZjMZY.gif)
 
 - Verfiy reciving email and downloading attachment  ( https://imgur.com/jlRh2sX )
 
-![TestCase GIF](https://imgur.com/vsZjMZY.gif)
+
