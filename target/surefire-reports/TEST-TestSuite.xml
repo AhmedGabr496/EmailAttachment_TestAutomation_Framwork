@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="130.765" tests="5" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\vis\target\test-classes;E:\vis\target\classes;C:\Users\AMG496\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\AMG496\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar;C:\Users\AMG496\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\AMG496\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\AMG496\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\AMG496\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\AMG496\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\AMG496\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\AMG496\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\AMG496\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\AMG496\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\AMG496\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\AMG496\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\AMG496\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\AMG496\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\AMG496\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\AMG496\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\AMG496\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\AMG496\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\AMG496\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\AMG496\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\AMG496\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\AMG496\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\AMG496\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\AMG496\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\AMG496\.m2\repository\org\aut\tm\cxf-bundle\2.7.3\cxf-bundle-2.7.3.jar;C:\Users\AMG496\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\AMG496\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\AMG496\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\AMG496\.m2\repository\io\github\pityka\fileutils_2.12\1.2.2\fileutils_2.12-1.2.2.jar;C:\Users\AMG496\.m2\repository\org\scala-lang\scala-library\2.12.6\scala-library-2.12.6.jar;C:\Users\AMG496\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\AMG496\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\AMG496\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\AMG496\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\AMG496\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\AMG496\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
+    <property name="sun.java.command" value="C:\Users\AMG496\AppData\Local\Temp\surefire1682561955141348741\surefirebooter9783912669725361100.jar C:\Users\AMG496\AppData\Local\Temp\surefire1682561955141348741 2020-04-25T21-23-57_285-jvmRun1 surefire10634985081639163721tmp surefire_09144827541940090842tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\vis\target\test-classes;E:\vis\target\classes;C:\Users\AMG496\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\AMG496\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar;C:\Users\AMG496\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar;C:\Users\AMG496\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\AMG496\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\AMG496\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\AMG496\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\AMG496\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\AMG496\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\AMG496\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\AMG496\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\AMG496\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\AMG496\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\AMG496\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\AMG496\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\AMG496\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\AMG496\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\AMG496\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\AMG496\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\AMG496\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\AMG496\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\AMG496\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\AMG496\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\AMG496\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\AMG496\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\AMG496\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\AMG496\.m2\repository\org\aut\tm\cxf-bundle\2.7.3\cxf-bundle-2.7.3.jar;C:\Users\AMG496\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\AMG496\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\AMG496\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\AMG496\.m2\repository\io\github\pityka\fileutils_2.12\1.2.2\fileutils_2.12-1.2.2.jar;C:\Users\AMG496\.m2\repository\org\scala-lang\scala-library\2.12.6\scala-library-2.12.6.jar;C:\Users\AMG496\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\AMG496\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\AMG496\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\AMG496\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\AMG496\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\AMG496\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\AMG496\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\AMG496"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-03-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\vis"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\AMG496\AppData\Local\Temp\surefire1682561955141348741\surefirebooter9783912669725361100.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14+36-1461"/>
+    <property name="user.name" value="AMG496"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\AMG496\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AMG496\AppData\Local\Temp\"/>
+    <property name="java.version" value="14"/>
+    <property name="user.dir" value="E:\vis"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-14\bin;E:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14+36-1461"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="checkUrl" classname="com.vis.testcases.HomePageTest" time="0.01"/>
+  <testcase name="signinbutton" classname="com.vis.testcases.HomePageTest" time="1.141"/>
+  <testcase name="signuser" classname="com.vis.testcases.SinginPageTest" time="19.086">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //div[@id=&apos;owaSearchBox&apos;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@id='owaSearchBox'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.vis.testcases.SinginPageTest.signuser(SinginPageTest.java:46)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //div[@id='owaSearchBox']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'AG496', ip: '192.168.1.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '14'
+Driver info: driver.version: unknown
+	at com.vis.testcases.SinginPageTest.signuser(SinginPageTest.java:46)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 19810
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 25, 2020 9:24:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587842666.198][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842666.300][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842666.402][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842666.505][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842666.607][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842666.709][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842666.888][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842672.272][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842672.378][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842672.519][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842672.621][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842672.741][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842672.843][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842672.945][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842673.050][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="sendmail" classname="com.vis.testcases.mailPageTest" time="19.988">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //div[@id=&apos;owaSearchBox&apos;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@id='owaSearchBox'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.vis.testcases.mailPageTest.sendmail(mailPageTest.java:49)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //div[@id='owaSearchBox']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'AG496', ip: '192.168.1.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '14'
+Driver info: driver.version: unknown
+	at com.vis.testcases.mailPageTest.sendmail(mailPageTest.java:49)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 29259
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 25, 2020 9:24:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587842698.857][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842698.959][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842699.062][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842699.164][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842699.266][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842699.368][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842699.470][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="recivemessage" classname="com.vis.testcases.recivemessagae" time="29.052">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;_1xP-XmXM1GGHpRKCCeOKjP&apos;])[1]&quot;}&#10;  (Session info: chrome=81.0.4044.122)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;AG496&apos;, ip: &apos;192.168.1.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\AMG496\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 8fbba48b6e0279baf2131c405e809858&#10;*** Element info: {Using=xpath, value=(//div[@class=&apos;_1xP-XmXM1GGHpRKCCeOKjP&apos;])[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='_1xP-XmXM1GGHpRKCCeOKjP'])[1]"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'AG496', ip: '192.168.1.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\AMG496\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8fbba48b6e0279baf2131c405e809858
+*** Element info: {Using=xpath, value=(//div[@class='_1xP-XmXM1GGHpRKCCeOKjP'])[1]}
+	at com.vis.testcases.recivemessagae.recivemessage(recivemessagae.java:50)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 7065
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 25, 2020 9:25:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587842730.629][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842730.730][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842730.832][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842730.934][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842731.037][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587842731.140][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+</testsuite>

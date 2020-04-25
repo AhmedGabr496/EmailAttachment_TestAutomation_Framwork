@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 130.765 s <<< FAILURE! - in TestSuite
+signuser(com.vis.testcases.SinginPageTest)  Time elapsed: 19.086 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@id='owaSearchBox'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.vis.testcases.SinginPageTest.signuser(SinginPageTest.java:46)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //div[@id='owaSearchBox']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'AG496', ip: '192.168.1.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '14'
+Driver info: driver.version: unknown
+	at com.vis.testcases.SinginPageTest.signuser(SinginPageTest.java:46)
+
+sendmail(com.vis.testcases.mailPageTest)  Time elapsed: 19.988 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@id='owaSearchBox'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.vis.testcases.mailPageTest.sendmail(mailPageTest.java:49)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //div[@id='owaSearchBox']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'AG496', ip: '192.168.1.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '14'
+Driver info: driver.version: unknown
+	at com.vis.testcases.mailPageTest.sendmail(mailPageTest.java:49)
+
+recivemessage(com.vis.testcases.recivemessagae)  Time elapsed: 29.052 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='_1xP-XmXM1GGHpRKCCeOKjP'])[1]"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'AG496', ip: '192.168.1.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\AMG496\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8fbba48b6e0279baf2131c405e809858
+*** Element info: {Using=xpath, value=(//div[@class='_1xP-XmXM1GGHpRKCCeOKjP'])[1]}
+	at com.vis.testcases.recivemessagae.recivemessage(recivemessagae.java:50)
+

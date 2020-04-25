@@ -1,0 +1,5 @@
+com\vis\pages\signinPage.class
+com\vis\utils\TestUtils.class
+com\vis\pages\HomePage.class
+com\vis\Base\TestBase.class
+com\vis\pages\mailPage.class

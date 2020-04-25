@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [vis]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="test1(failed)" verbose="0">
+    <classes>
+      <class name="com.vis.testcases.recivemessagae">
+        <methods>
+          <include name="endAll"/>
+          <include name="recivemessage" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.vis.testcases.recivemessagae -->
+      <class name="com.vis.testcases.mailPageTest">
+        <methods>
+          <include name="sendmail" invocation-numbers="0"/>
+          <include name="endAll"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.vis.testcases.mailPageTest -->
+      <class name="com.vis.testcases.SinginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="signuser" invocation-numbers="0"/>
+          <include name="endAll"/>
+        </methods>
+      </class> <!-- com.vis.testcases.SinginPageTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [vis] -->
