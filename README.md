@@ -1,5 +1,5 @@
 # Vodafone Egypt VIS Test automation technical assesment 
-### An automation FramWork that automates the process of sending an email attachment and Verify the received email.
+### A Test automation FramWork that automates the process of sending an email attachment and Verify the received email.
 
 
 
