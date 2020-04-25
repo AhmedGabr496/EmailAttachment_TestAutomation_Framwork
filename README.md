@@ -89,16 +89,6 @@ mvn test
 
 -Video Records
 
-
-## Reports Results Samples
-
-<img src="https://imgur.com/p0M5eVB.png" width="80%">
-
-
-<img src="https://imgur.com/oacY2Y6.png" width="80%">
-
-
-
 ## TestCases Execution
 
 - Sending email & uploading attachment  test Case execution ( https://imgur.com/T2eTvWa )
@@ -107,4 +97,9 @@ mvn test
 
 - Verfiy reciving email and downloading attachment  ( https://imgur.com/jlRh2sX )
 
+## Reports Results Samples
 
+<img src="https://imgur.com/p0M5eVB.png" width="80%">
+
+
+<img src="https://imgur.com/oacY2Y6.png" width="80%">
