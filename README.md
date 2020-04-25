@@ -97,8 +97,7 @@ mvn test
 
 - Verfiy reciving email and downloading attachment  ( https://imgur.com/jlRh2sX )
 
-<iframe src="https://giphy.com/embed/XHLo5Gai8D41NRYq0t" width="480" height="384" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XHLo5Gai8D41NRYq0t">via GIPHY</a></p>
-
+![TestCase_GIF](https://media.giphy.com/media/XHLo5Gai8D41NRYq0t/giphy.gif)
 
 ## Reports Results Samples
 
