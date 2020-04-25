@@ -1,4 +1,4 @@
-# Vodafone Egypt VIS Test automation technical assesment 
+# Vodafone Egypt VIS Test automation technical assessment 
 ### A Test automation FramWork that automates the process of sending an email attachment and Verify the received email.
 
 
